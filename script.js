@@ -86,20 +86,20 @@ const DATA = {
   projects: [
     {
       id: '001', date: '2025-10-7', title: 'CVE-2026-3544 Report/PoC', desc: 'Chrome-based Heap Buffer Overflow analysis report, with exploit PoC',
-      cmd: "demo.html", tags: ['Buffer Overflow', 'Chrome'], status: 'WIP'
+      cmd: "demo.html", tags: ['Buffer Overflow', 'Chrome'], status: 'DONE'
     },
     {
       id: '002', date: '2026-10-6', title: 'Python AI Detector', desc: 'Script that flags for common patterns in AI LLM generative texts.',
-      cmd: "./detectdemo", tags: ['AI', 'Python'], status: 'DONE'
+      cmd: "./detectdemo", tags: ['AI', 'Python'], status: 'WIP'
     },
     {
       id: '003', date: '2025-10-18', title: 'Java Inventory Manager', desc: 'Log the inventory of a store to its shelves, aisles and floors. Visualised on interactive map.',
       cmd: "./main.java", tags: ['Java', 'Data Structures/Algorithms'], status: 'DONE'
-    },
-    {
+    } /*,*/
+  /*  {
       id: '004', date: '2025-12-14', title: 'Java Election System', desc: 'Track the voter turnout/demographics of a given election',
       cmd: "./main.java", tags: ['Java', 'Data Structures/Algorithms'], status: 'DONE'
-    }
+    }*/
 
   ]
 };
